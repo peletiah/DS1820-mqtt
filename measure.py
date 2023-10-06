@@ -26,6 +26,26 @@ SENSORS = [
         "name": "Rücklauf Gesamt",
         "key": "ruecklauf_gesamt",
         "path": "/sys/bus/w1/devices/28-c6ad451f64ff/w1_slave",
+    },
+    {
+        "name": "Vorlauf Heizkörper",
+        "key": "vorlauf_heizkoerper",
+        "path": "/sys/bus/w1/devices/28-1dda451f64ff/w1_slave",
+    },
+    {
+        "name": "Rücklauf Heizkörper",
+        "key": "ruecklauf_heizkoerper",
+        "path": "/sys/bus/w1/devices/28-7fda451f64ff/w1_slave",
+    },
+    {
+        "name": "Vorlauf Fußbodenheizung",
+        "key": "vorlauf_fbh",
+        "path": "/sys/bus/w1/devices/28-a2ae451f64ff/w1_slave",
+    },
+    {
+        "name": "Rücklauf Fußbodenheizung",
+        "key": "ruecklauf_fbh",
+        "path": "/sys/bus/w1/devices/28-eaa6451f64ff/w1_slave",
     }
 ]
 
