@@ -11,7 +11,7 @@ import paho.mqtt.client as mqtt
 # MQTT configuration
 MQTT_BROKER_IP = "10.0.0.30"
 MQTT_BASE_TOPIC = "homeassistant/sensor/heizung/"
-MQTT_BASE_ID = "heizung_temperatur_"
+MQTT_BASE_ID = "heizung_"
 MQTT_NAME_PREFIX = "Heizung"
 MQTT_RETAIN = True  # MQTT broker keeps the last message
 MQTT_QOS = 2  # Make sure the MQTT message is only sent once
